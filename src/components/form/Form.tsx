@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Form.scss'
 
 
 export const Form = (props: { createNewToDo: Function }) => {

@@ -1,4 +1,3 @@
-import { Header } from "../components/header/Header"
 import { Form } from "../components/form/Form"
 import { TodoList } from "../components/todolist/TodoList"
 import { ToDo } from "../models/todo-item"
@@ -49,7 +48,6 @@ export const TodoListPage = () => {
   }
   return (
     <div>
-      <Header />
       <Form createNewToDo={createNewToDo} />
       <TodoList todos={todos}
         updateToDo={updateToDo}

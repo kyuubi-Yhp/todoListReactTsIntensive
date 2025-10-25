@@ -1,5 +1,5 @@
 import { ToDo } from "../../../models/todo-item"
-
+import './TodoListItem.scss'
 
 
 export const TodoListItem = (

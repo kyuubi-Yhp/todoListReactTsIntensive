@@ -1,5 +1,6 @@
 import { ToDo } from "../../models/todo-item"
 import { TodoListItem } from "./todolistitem/TodoListItem"
+import './TodoList.scss'
 
 export const TodoList = (props: {
   todos: ToDo[],
